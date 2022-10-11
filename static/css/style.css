@@ -1,4 +1,4 @@
-/*-----------------------------------*\ 
+/*-----------------------------------*\
  * #style.css
 \*-----------------------------------*/
 
@@ -368,6 +368,25 @@ footer .logo { margin-bottom: 30px; }
   visibility: visible;
   pointer-events: all;
 }
+
+
+.header {
+  background: ;
+  background-image: url('../images/banner.jpg');
+  width: 100%;
+  padding: 50px;
+  text-align: center;
+  background-size: 100% 200%;
+  /*color: white;*/
+  font-size: 30px;
+}
+
+
+
+
+
+
+
 
 
 
