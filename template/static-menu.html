@@ -1,12 +1,27 @@
 {% extends 'base.html' %}
-
+{% load static %}
 {% block content %}
 
     <div class="header">
   <h1>{{ request.get_full_path }}</h1>
   <p>My supercool header</p>
 </div>
+<div class="container">
+    <div class="row">
+    <div class="col-12 col-md-8">
+        <h1>{{ request.get_full_path }}</h1>
+    </div>
+    <div class="col-12 col-md-4">
+        <div class="telegram-banner">
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+        </div>
+        <div class="message-banner">
 
+        </div>
+
+    </div>
+</div>
+</div>
 
 
 

@@ -1,25 +1,5 @@
-/*-----------------------------------*\
- * #style.css
-\*-----------------------------------*/
-
-/**
- * copyright 2022 codewithsadee
- */
-
-
-
-
-
-/*-----------------------------------*\ 
- * #CUSTOM PROPERTY
-\*-----------------------------------*/
 
 :root {
-
-  /**
-   * colors
-   */
-
   --maximum-yellow-red: hsl(37, 100%, 68%);
   --royal-blue-dark: hsl(231, 61%, 22%);
   --silver-chalice: hsl(0, 0%, 70%);
@@ -63,7 +43,7 @@
 
 
 
-/*-----------------------------------*\ 
+/*-----------------------------------*\
  * #RESET
 \*-----------------------------------*/
 
@@ -125,11 +105,11 @@ body {
 
 
 
-/*-----------------------------------*\ 
+/*-----------------------------------*\
  * #HEADER
 \*-----------------------------------*/
 
-/*-----------------------------------*\ 
+/*-----------------------------------*\
  * #HERO
 \*-----------------------------------*/
 
@@ -371,14 +351,21 @@ footer .logo { margin-bottom: 30px; }
 
 
 .header {
-  background: ;
-  background-image: url('../images/banner.jpg');
+  background-color: rgba(0, 0, 0);
+  background-image: url('../images/banner-2.jpg');
   width: 100%;
   padding: 50px;
   text-align: center;
   background-size: 100% 200%;
   /*color: white;*/
   font-size: 30px;
+}
+.telegram-banner{
+  background-image: url("../images/840_560.jpg");
+  padding: 50px;
+   text-align: center;
+  background-position: center;
+
 }
 
 
