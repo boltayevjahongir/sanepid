@@ -7,18 +7,31 @@
   <p>My supercool header</p>
 </div>
 <div class="container">
-    <div class="row">
-    <div class="col-12 col-md-8">
+    <div class="row mt-3">
+    <div class="col-12 col-md-8 shadow">
         <h1>{{ request.get_full_path }}</h1>
     </div>
-    <div class="col-12 col-md-4">
+    <div class="col-12 col-md-4 shadow p-0">
         <div class="telegram-banner">
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing.</p>
+            <img class="" src="{% static 'images/telegram.png' %}" alt="telegram.png">
+            <div class="text-box">
+                <div class="text">
+                    <h2>Telegram kanalimiz</h2>
+                    <p>Angor tumani Sanitariya-epidemiologik osoyishtalik va jamoat salomatligi bo'limi</p>
+                    <button class="btn btn-light">A'zo bo'lish</button>
+                </div>
+            </div>
         </div>
-        <div class="message-banner">
-
+                <div class="telegram-banner mt-3">
+            <img class="" src="{% static 'images/message.jpg' %}" alt="telegram.png">
+            <div class="text-box">
+                <div class="text">
+                    <h2>Telegram kanalimiz</h2>
+                    <p>Angor tumani Sanitariya-epidemiologik osoyishtalik va jamoat salomatligi bo'limi</p>
+                    <button class="btn btn-light">A'zo bo'lish</button>
+                </div>
+            </div>
         </div>
-
     </div>
 </div>
 </div>
