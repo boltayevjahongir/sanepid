@@ -1,7 +1,7 @@
 from django.urls import path
-
-
+# from .views import
+#
 # urlpatterns = [
-#     path('', home, name='home'),
-#     path('about/<str:course>/<int:theme>', about, name='about')
+#     # path('', home, name='home'),
+#     path('static-menu/<int:id>', staticMenu, name='staticMenu')
 # ]
