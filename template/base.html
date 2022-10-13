@@ -36,23 +36,32 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
               <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="#">Bosh sahifa</a>
+                  <a class="nav-link active" aria-current="page" href="{% url 'home' %}">{{menu.0.name}}</a>
+                </li>
+
+                <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            {{menu.1.name}}
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <li><a class="dropdown-item" href="#">Rahbariyat</a></li>
+            <li><a class="dropdown-item" href="#">Hujjatlar</a></li>
+          </ul>
+        </li>
+
+
+                <li class="nav-item">
+                  <a class="nav-link" href="/static-menu/{{menu.2.id}}">{{menu.2.name}}</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Angorsanepid</a>
+                  <a class="nav-link" href="/static-menu/{{menu.3.id}}">{{menu.3.name}}</a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Profilaktika</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Bog'lanish</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Korrupsiyaga qarshi kurash</a>
+                 <a class="nav-link" href="/static-menu/{{menu.4.id}}">{{menu.4.name}}</a>
                 </li>
 
                 <li class="nav-item">
-                  <a class="nav-link" href="#">Murojaat yuborish</a>
+                  <a class="nav-link" href="/static-menu/{{menu.5.id}}">{{menu.5.name}}</a>
                 </li>
               </ul>
 
