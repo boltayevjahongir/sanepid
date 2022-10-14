@@ -105,7 +105,6 @@ CKEDITOR_CONFIGS = {
             'dialog',
             'dialogui',
             'elementspath',
-            'youtube',
             'html5audio'
         ]),
     }
