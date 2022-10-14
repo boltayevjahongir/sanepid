@@ -16,6 +16,8 @@ def home(request):
 
 def staticMenu(request, id):
     menu = Menutext.objects.all()
+    menu_text = Menutext.objects.get(id=id)
     return render(request, 'static-menu.html',  context={
-        'menu': menu
+        'menu': menu,
+        'menu_text': menu_text
     })

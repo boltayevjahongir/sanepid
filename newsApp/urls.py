@@ -1,7 +1,7 @@
 from django.urls import path
-# from .views import
-#
-# urlpatterns = [
-#     # path('', home, name='home'),
-#     path('static-menu/<int:id>', staticMenu, name='staticMenu')
-# ]
+from .views import newsDetails
+
+urlpatterns = [
+    # path('', home, name='home'),
+    path('news-detail/<int:id>', newsDetails, name='newsDetails')
+]

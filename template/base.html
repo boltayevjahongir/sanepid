@@ -29,7 +29,7 @@
        
         <nav class="navbar navbar-expand-lg navbar-ligh">
           <div class="container-fluid">
-            <a class="navbar-brand" href="#">ANGORSANEPID.UZ</a>
+            <a class="navbar-brand" href="{% url 'home' %}">ANGORSANEPID.UZ</a>
             <button class="navbar-toggler text-primary" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
               <span class="navbar-toggler-icon"> <ion-icon name="menu"></ion-icon></span>
             </button>
@@ -44,8 +44,8 @@
             {{menu.1.name}}
           </a>
           <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <li><a class="dropdown-item" href="#">Rahbariyat</a></li>
-            <li><a class="dropdown-item" href="#">Hujjatlar</a></li>
+            <li><a class="dropdown-item" href="/static-menu/{{menu.6.id}}">{{menu.6.name}}</a>
+            <li><a class="dropdown-item" href="/static-menu/{{menu.7.id}}">{{menu.7.name}}</a>
           </ul>
         </li>
 

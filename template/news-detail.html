@@ -3,20 +3,20 @@
 {% block content %}
 
     <div class="header">
-  <h1>{{menu_text.name}}</h1>
-  <p>{{menu_text.name}}</p>
+  <h1>{{news.title}}</h1>
+
 </div>
 <div class="container">
     <div class="row mt-3">
-    <div class="col-12 col-md-8 shadow">
+    <div class="col-12 col-md-8 shadow p-3">
          <nav aria-label="breadcrumb">
           <ol class="breadcrumb">
             <li class="breadcrumb-item"><a href="{% url 'home' %}">Bosh sahifa</a></li>
-            <li class="breadcrumb-item active" aria-current="page">{{menu_text.name}}</li>
+            <li class="breadcrumb-item active" aria-current="page">{{news.title}}</li>
           </ol>
          </nav>
-        <h1 class="text-center">{{menu_text.name}}</h1>
-        <p>{{menu_text.content}}</p>
+        <h3 class="text-center">{{news.title}}</h3>
+        <p>{{news.content |safe }}</p>
     </div>
     <div class="col-12 col-md-4 shadow p-0">
         <div class="telegram-banner">

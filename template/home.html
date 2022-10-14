@@ -47,19 +47,21 @@
             <div class="row g-3">
               {% for item in news %}
               <div class="col-12 col-md-4">
-                <div class="about-card">
+                <div class="about-card p-3">
 
                   <div class="card-img">
-                    <img src="{{item.url}}" alt="">
+                    <img src="{{item.img.url}}" alt="">
                   </div>
 
                   <h3 class="h3 card-title">Paid Search and Social Management</h3>
 
-                  <p class="card-text">
-                    Each time a digital asset is purchased or sold, Sequoir donates a percentage of the fees back
+                  <p class="card-text mb-3">
+                    {{item.shortText}}
                   </p>
+                  <a class="btn btn-link" href="/news/news-detail/{{item.id}}">Batafsil...</a>
 
                 </div>
+
               </div>
               {% endfor %}
 
@@ -76,7 +78,6 @@
 
         </div>
       </section>
-
 
 
       <!-- 
